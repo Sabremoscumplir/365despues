@@ -1,4 +1,4 @@
-
+d3.index = function(containerId,width,cb) {
 var width = 750,
     height = 750,
     radius = Math.min(width, height) / 2,
@@ -80,5 +80,5 @@ d3.csv("http://github.com/Sabremoscumplir/365despues/blob/master/data/aster_data
     .attr("dy", ".35em")
     .attr("text-anchor", "middle") // text-align: right
     .text(Math.round(score));
-
+}
 });
