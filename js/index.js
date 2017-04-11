@@ -33,7 +33,7 @@ var svg = d3.select("body").append("svg")
 
 svg.call(tip);
 
-d3.csv("https://gist.githubusercontent.com/bbest/2de0e25d4840c68f2db1/raw/52757de7e4584a6ff8cefbd2f8cea8a0d7cc2f0c/aster_data.csv", function(error, data) {
+d3.csv("https://github.com/Sabremoscumplir/365despues/blob/master/data/aster_data.csv", function(error, data) {
 
   data.forEach(function(d) {
     d.id     =  d.id;
